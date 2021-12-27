@@ -8,6 +8,22 @@ Copy the contents of the relevant directory into the `src` directory for your pr
 
 ### Resources
 
-[WAI_ARIA Roles definitions]([https://link](https://www.w3.org/TR/wai-aria/#role_definitions))
+[WAI_ARIA Roles definitions](https://www.w3.org/TR/wai-aria/#role_definitions)
 
-[Jest DOM]([https://link](https://github.com/testing-library/jest-dom))
+[Jest DOM](https://github.com/testing-library/jest-dom)
+
+[ESLint Testing Library](https://github.com/testing-library/esliint-plugin-testing-library)
+
+[ESLint Jest DOM](https://github.com/testing-library/esliint-plugin-jest-dom)
+
+### Review
+
+- Test interactivity using `fireEvent`
+- jest-dom assertions:
+  - `toBeEnabled()`
+  - `toBeDisabled()`
+  - `toBeChecked()`
+- `getByRole`oprtion `{ name: }`
+- jest `describe`to group tests
+- Unit testing functions
+- Setting up ESLint and Prettier
